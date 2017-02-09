@@ -7,5 +7,6 @@ RUN ln -sf /dev/stderr /var/log/nginx/error.log
 
 VOLUME /var/www
 
-
 EXPOSE 80
+
+EXPOSE 443
